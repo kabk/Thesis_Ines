@@ -1,7 +1,5 @@
-TRI_RT
+//TO BE ABLE TO READ THIS IN Chrome//
 ======
-
-TRI_Responsive_Typography
 
 In Chrome, pulling in content through JavaScript does not work for local files.
 

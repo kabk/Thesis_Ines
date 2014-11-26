@@ -4,22 +4,24 @@
 }
 
 .navbar {
-    background-color: none;
-	color: black;
-	line-height: 22px;
+    background-color: white;
+	color: blue;
+	font-family: "Times New Roman", Times, serif;
+	line-height: 14px;
 	font-size: 12px;
-	text-align: center;
-    height: 30px;
+	text-align: justify;
+    height: 100px;
     width: 100%;
-	padding-top: 10px;
-    padding-left:0px;
+	padding-top: 30px;
+    padding-left:55px;
     position: fixed;
     top: 0;
     left: 0;
 }
+
 @media only print  {
     .navbar, #left, #right{
-        display: none;
+        display:none;
     }
 }
 
@@ -31,12 +33,11 @@ body {
 }
 
 /* This is the subttitle text */
-h1 {font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+h1 {font-family: "Times New Roman", Times, serif;
+    font-size: 32px;
 	line-height: 22px ;
     text-align: left;
-    font-style: normal;
-    font-weight: 0px;
+	font-weight: normal;
 }
 /* This is the references and footnotes */
 h2 {font-family: Arial, Helvetica, sans-serif;
@@ -45,33 +46,31 @@ h2 {font-family: Arial, Helvetica, sans-serif;
     line-height: 18px;
 }
 
-/* This is the running text */
-h5 {font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-	line-height:22px;
-    font-weight: normal;
-}
-
-h6 {
-}
-
+/* This is the quote text*/
 h4 {
     text-align: left;
 	font-family: "Times New Roman", Times, serif;
     font-size: 20px;
-	line-height: 22px;
+	line-height: 26px;
 	font-weight:normal;
 }
+
+/* This is the running text */
+h5 {font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+	line-height:26px;
+    font-weight: normal;
+}
+
 
 .columns { 
     text-align: justify;
     text-justify: inter-word;
-    height: 500px;
     -webkit-column-gap: 100px;
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-gap: 100px;
     -moz-column-count: 2; /* Firefox */
-    column-count: 2;
+	column-count: 2;
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
@@ -191,7 +190,7 @@ img {
         font-style: normal;
     } 
 	
-	header h2 { 
+	header h4 { 
 		font-size: 16px; 
 		font-color: red;
 	}

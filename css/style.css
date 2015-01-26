@@ -56,6 +56,47 @@ h2 {font-family: 'Roboto', sans-serif;
 	font-weight: normal;	
 }
 
+h2 a:hover {
+	color:red;	
+}
+
+/* TABLE OF CONTENT */
+
+#toc {font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+	line-height: 18px;
+	letter-spacing: 0.09em;
+    text-align: left;
+	font-weight: normal;
+	color: black;
+	}
+	
+#toc a:link{	
+	color:black;	
+}
+	
+#toc a:hover{	
+	color:red;	
+}
+
+#toc a:visited{
+	color: black !important;
+}
+
+sup{
+	color:black;
+}
+
+sup a:link{
+	color: blue;
+	border-bottom: solid 1px blue;
+}
+
+sup a:hover{
+	color: red;
+}
+	
+
 /* BODY */
 h3 {font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -94,7 +135,7 @@ sbb{
 	    font-size: 24px;
 		line-height: 26px;
 		letter-spacing: 0.2em;
-	    text-align: right;
+	    text-align: center !important;
 }
 
 sbs{
@@ -115,7 +156,8 @@ subjective{
 
 quote{
     font: 20px/26px 'Playfair Display', serif;
-    font-weight: bold;
+    font-weight: bold !important;
+    letter-spacing: 0.04em;
 }
 
 .columns { 
@@ -341,6 +383,26 @@ p {
     outline: 0;
 }
 
-.sup{
-	
-}
+
+#start{}
+#one{}
+#two{}
+#three{}
+#four{}
+#five{}
+#six{}
+#seven{}
+#eight{}
+#nine{}
+#ten{}
+#eleven{}
+#twelve{}
+#thirteen{}
+#fourteen{}
+#fifteen{}
+#sixteen{}
+#seventeen{}
+#eightteen{}
+#nineteen{}
+#twenty{}
+

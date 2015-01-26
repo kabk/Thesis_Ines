@@ -10,13 +10,22 @@
         <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/jquery.scrollstop.js"></script>
         
-        <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="css/jquery.fancybox-buttons.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="css/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
 
-        <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
-        <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+		         <script>
+				  $(function() {
+				    $('a[href*=#]:not([href=#])').click(function() {
+				      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 
+				        var target = $(this.hash);
+				        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				        if (target.length) {
+				          $('body,html').animate({'scrollLeft': target.offset().left}, 1000);
+				          return false;
+				        }
+				      }
+				    });
+				  });
+				</script>
 		
 </head>
     
@@ -27,7 +36,7 @@
 		 <div id="left"><a href="#">&larr;</a></div>
          <div id="right"><a href="#">&rarr;</a></div>
  
-         <div class="navbar"><a href="index.html">THE IMPOSSIBLE OBJECTIVE</a></div>	
+         <div class="navbar"><a href="index3.html">THE IMPOSSIBLE OBJECTIVE</a></div>	
 
 			<div class="columns">
 
